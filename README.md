@@ -3,7 +3,6 @@
 <!-- Strong badge header -->
 [![npm version](https://img.shields.io/npm/v/json-to-anything.svg)](https://www.npmjs.com/package/json-to-anything)
 [![npm downloads](https://img.shields.io/npm/dm/json-to-anything.svg)](https://www.npmjs.com/package/json-to-anything)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/json-to-anything.svg)](https://bundlephobia.com/package/json-to-anything)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](../LICENSE)
 [![module](https://img.shields.io/badge/module-ESM-blue.svg)](#)
 [![dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](#)
@@ -69,6 +68,7 @@ Core API (selected converters)
 License
 
 MIT
+
 
 
 
