@@ -1,8 +1,32 @@
 {
   "name": "json-to-anything",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "JSON \u2192 Anything Converter - end product bundle (ES module)",
   "main": "index.js",
   "type": "module",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+  "json",
+  "json-converter",
+  "json-transform",
+  "json-parser",
+  "json-to-anything",
+  "json-to-xml",
+  "json-to-csv",
+  "json-to-yaml",
+  "json-to-html",
+  "json-to-markdown",
+  "json-to-text",
+  "converter",
+  "data-conversion",
+  "data-transform",
+  "serialization",
+  "deserialization",
+  "format-converter",
+  "file-conversion",
+  "utility",
+  "cli",
+  "tool"
+]
+
 }
