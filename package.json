@@ -1,6 +1,6 @@
 {
   "name": "json-to-anything",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSON \u2192 Anything Converter - end product bundle (ES module)",
   "main": "index.js",
   "type": "module",
