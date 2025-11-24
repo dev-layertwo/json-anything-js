@@ -1,9 +1,9 @@
 # json-anything-endproduct
 
 <!-- Strong badge header -->
-[![npm version](https://img.shields.io/npm/v/json-anything-endproduct.svg)](https://www.npmjs.com/package/json-anything-endproduct)
-[![npm downloads](https://img.shields.io/npm/dm/json-anything-endproduct.svg)](https://www.npmjs.com/package/json-anything-endproduct)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/json-anything-endproduct.svg)](https://bundlephobia.com/package/json-anything-endproduct)
+[![npm version](https://img.shields.io/npm/v/json-anything-endproduct.svg)](https://www.npmjs.com/package/json-to-anything)
+[![npm downloads](https://img.shields.io/npm/dm/json-anything-endproduct.svg)](https://www.npmjs.com/package/json-to-anything)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/json-anything-endproduct.svg)](https://bundlephobia.com/package/json-to-anything)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](../LICENSE)
 [![module](https://img.shields.io/badge/module-ESM-blue.svg)](#)
 [![dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](#)
@@ -29,13 +29,13 @@ npm install
 Install from npm (when published):
 
 ```bash
-npm install json-anything-endproduct
+npm i json-to-anything
 ```
 
 Quick usage (ES modules)
 
 ```js
-import { toCSV, toYAML, toMarkdownTable } from 'json-anything-endproduct';
+import { toCSV, toYAML, toMarkdownTable } from 'json-to-anything';
 
 const data = [{ id: 1, name: 'Alice' }, { id: 2, name: 'Bob' }];
 console.log(toCSV(data));
@@ -69,5 +69,6 @@ Core API (selected converters)
 License
 
 MIT
+
 
 
