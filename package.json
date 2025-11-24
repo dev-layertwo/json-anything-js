@@ -1,0 +1,8 @@
+{
+  "name": "json-anything-endproduct",
+  "version": "1.0.0",
+  "description": "JSON \u2192 Anything Converter - end product bundle (ES module)",
+  "main": "index.js",
+  "type": "module",
+  "license": "MIT"
+}
