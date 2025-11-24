@@ -65,33 +65,9 @@ Core API (selected converters)
 - toCSharp / toJava / toPythonDataclass / toGoStruct / toRustStruct / toDartClass / toPHPArray — language-specific outputs
 - toProto — naive proto3 generator
 
-For exact behavior and edge-case notes, see `npm/index.js` — these helpers are intentionally simple and edge-case light.
-
-Publishing checklist
-
-1. Add repository metadata, `author`, `keywords`, and useful `scripts` to `npm/package.json`.
-2. Add `files` to include only the files you want published (e.g. `index.js`).
-3. Run tests (add them) and tag a release.
-
-```bash
-git add npm/package.json npm/README.md
-git commit -m "chore(npm): prepare package"
-git tag v1.0.0
-git push --tags
-cd npm
-npm publish --access public
-```
-
-GitHub / npm tips
-
-- Add a `repository` field to `npm/package.json` pointing to the GitHub repo to enable GitHub-based badges and CI integration.
-- Add a `test` script and CI (GitHub Actions) to show a build/test badge in this README.
-- Consider publishing TypeScript declarations (`.d.ts`) if consumers use TypeScript.
 
 License
 
-MIT — see `../LICENSE`.
+MIT
 
-Notes
 
-This bundle is best for quick conversions, documentation generation, and prototypes. For robust production needs (complex CSV/YAML edge-cases), prefer specialized libraries.
